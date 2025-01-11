@@ -4,7 +4,7 @@ document.getElementById('whatsapp-form').addEventListener('submit', function (e)
 
   if (phone) {
     // Formata o link para abrir o WhatsApp
-    const whatsappUrl = `https://wa.me/${phone}`;
+    const whatsappUrl = `https://wa.me/55${phone}`;
     window.open(whatsappUrl, '_blank');
   } else {
     alert('Por favor, insira um número válido.');
